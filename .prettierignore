@@ -1,0 +1,16 @@
+# Ignore artifacts:
+.DS_Store
+node_modules
+*.pravate.config.json
+*.md
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+yarn.lock
+*lock*
+*lock

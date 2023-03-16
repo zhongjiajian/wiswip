@@ -1,0 +1,19 @@
+{
+    /*
+        **表示任意目录
+        *表示任意文件
+    * exclude表示被排除的编译文件
+    * extends表示需要继承的文件
+    * files表示指定编译的文件列表
+    */
+    "extends": "./.svelte-kit/tsconfig.json",
+    "exclude": [
+        "src/**/*",
+    ],
+    "compilerOptions": {
+        // checkJs是否检验js代码符合ts语法规范
+        "checkJs": false,
+        // noImplicitAny不允许使用隐式any,any等同于关闭了ts数据类型检测
+        "noImplicitAny": false,
+    }
+}
