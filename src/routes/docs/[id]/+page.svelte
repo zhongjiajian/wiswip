@@ -4,4 +4,12 @@
 </script>
 
 <Header />
-<BaseRow />
+<div class="editor-panel">
+  <BaseRow />
+</div>
+
+<style lang="scss">
+  .editor-panel {
+    padding: 10px;
+  }
+</style>
